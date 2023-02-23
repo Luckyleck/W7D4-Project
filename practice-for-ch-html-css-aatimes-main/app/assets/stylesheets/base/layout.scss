@@ -10,11 +10,11 @@ body {
 	width: 80%;
 	margin: 0 auto;
 	font-family: $serif;
-	font-size: 12px;
+	font-size: 24px;
 }
 
-button {
-	// background-color:
+.button_1 {
+	// background-color: red;
 	// border-color:
 	// color:
 	// font-weight:
@@ -25,6 +25,27 @@ button {
 	// text-transform:
 	// font-size:
 	// text-align:
+}
+
+.right-nav a {
+	background-color: #3d698e;
+}
+
+.right-nav li {
+	background-color: #3d698e;
+	border-radius: 5px;
+}
+
+#subscribe {
+	color: antiquewhite;
+}
+
+#login {
+	color: antiquewhite;
+}
+
+#gear-icon {
+	background-color: lightgray;
 }
 
 button:hover {
